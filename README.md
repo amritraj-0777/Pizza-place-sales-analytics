@@ -61,12 +61,19 @@ Business rules include:
 - LineAmount = Quantity × UnitPrice stored in order_details; order TotalAmount is the sum of its LineAmount values.
 - Time modeled at date and hour level for trend and peak analysis.
 
-## Dashboards
+## Live Assets
 
-Public Tableau views (Pizza Sales Dashboard and Storyboard):
+- **Pizza Sales Dashboard (Tableau):**  
+  Main KPI dashboard with monthly trends, category performance, and hourly demand.  
+  Link: https://public.tableau.com/app/profile/amrit.raj3866/viz/FinalProject_510_17649706830990/PizzaSalesDashboard?publish=yes] 
 
-- Dashboard: `<link to main Tableau dashboard>`  
-- Story: `<link to story view>`
+- **Pizza Sales Storyboard (Tableau):**  
+  Step-by-step narrative view for stakeholders, walking through key insights.  
+  Link: https://public.tableau.com/app/profile/amrit.raj3866/viz/FinalProject_510_17649706830990/PizzaSalesOverviewStory?publish=yes
+  
+- **Pizza Order Form (Microsoft Forms):**  
+  Front-end form integrated with Power Automate and Azure SQL (`customer_orders` table) to capture new orders in real time.  
+  Link: https://forms.microsoft.com/pages/responsepage.aspx?id=W9229i_wGkSZoBYqxQYL0r7haT6USN9PtLfZdI4CFWpUQUI5M1dOWVk1NFZMSzVLN0swQ1JWQzY1VC4u&route=shorturl
 
 These dashboards present:
 - Monthly sales and order trends.  
